@@ -1,0 +1,32 @@
+{
+	"title": "Core",
+	"root": true,
+	"pages": [
+		"---Get Started---",
+		"get-started/introduction",
+		"get-started/architecture",
+		"get-started/features",
+    "get-started/system-requirements",
+		"get-started/installation",
+		"get-started/manual-installation",
+		"get-started/reset-password",
+		"get-started/uninstall",
+    "---Components---",
+    "components/accordion",
+    "components/banner",
+    "components/steps",
+    "components/tabs",
+    "components/zoom-image",
+    "---Deployments---",
+    "deployments/vercel",
+		"deployments/netlify",
+    "deployments/kinsta",
+		"---Troubleshooting---",
+		"troubleshooting/overview",
+    "troubleshooting/error",
+    "---Community---",
+    "community/code-of-conduct",
+    "community/contribute-to-nextify",
+    "community/feedback-and-support"
+  ]
+}
