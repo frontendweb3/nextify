@@ -1,0 +1,96 @@
+import { Edit } from 'lucide-react';
+import { DocsPage, DocsBody } from 'fumadocs-ui/page';
+import { notFound } from 'next/navigation';
+import { docs } from '@/utils/source';
+import { Category } from "@/components/Category/Category";
+import * as React from "react";
+
+// import type { Metadata } from 'next';
+// import { createMetadata } from '@/utils/metadata';
+// import Preview from '@/components/preview';
+
+
+interface Param {
+  slug: string[];
+}
+
+export default function Page({ params }: { params: Param; }): React.ReactElement {
+  const page = docs.getPage(params.slug);
+
+  if (!page) notFound();
+
+  const path = `apps/docs/content/docs/${page.file.path}`;
+
+
+  const footer = (
+    <a
+      href={`https://github.com/fuma-nama/fumadocs/blob/main/${path}`}
+      target="_blank"
+      rel="noreferrer noopener"
+      className="bg-fd-primary text-fd-primary-foreground flex flex-row justify-center items-center p-2"
+    >
+      <Edit className="size-3 mr-2" />
+      Edit on Github
+    </a>
+  );
+
+  return (
+    <DocsPage
+      toc={page.data.exports.toc}
+      lastUpdate={page.data.exports.lastModified}
+      full={page.data.full}
+      tableOfContent={{
+        footer,
+      }}
+      tableOfContentPopover={{ footer }}
+    >
+      <h1 className="text-3xl font-bold text-fd-foreground sm:text-4xl">
+        {page.data.title}
+      </h1>
+      <p className="mb-8 text-lg text-fd-muted-foreground">
+        {page.data.description}
+      </p>
+      <DocsBody>
+
+        <page.data.exports.default />
+        {page.data.index ? <Category page={page} /> : null}
+      </DocsBody>
+    </DocsPage>
+  );
+}
+
+
+
+//export function generateMetadata({ params }: { params: Param }): Metadata {
+//  const page = docs.getPage(params.slug);
+//
+//  if (!page) notFound();
+//
+//  const description =
+//    page.data.description ?? 'The library for building documentation sites';
+//
+//  const image = {
+//    alt: 'Banner',
+//    url: `/og/docs/${page.slugs.join('/')}.png`,
+//    width: 1200,
+//    height: 630,
+//  };
+//
+//  return createMetadata({
+//    title: page.data.title,
+//    description,
+//    openGraph: {
+//      url: `/docs/${page.slugs.join('/')}`,
+//      images: image,
+//    },
+//    twitter: {
+//      images: image,
+//    },
+//  });
+//}
+
+export function generateStaticParams(): Param[] {
+  return docs.getPages().map((page) => ({
+    slug: page.slugs,
+  }));
+}
