@@ -9,7 +9,7 @@ tags:
   - Business
 category:
   - Computer Science
-image: images/technology.jpg
+image: /images/technology.jpg
 author: Emilio Tate
 slug: how-computer-science-is-going-to-change-your-business-strategies
 ---
