@@ -1,5 +1,4 @@
 import createMDX from 'fumadocs-mdx/config';
-import { remarkImage } from 'fumadocs-core/mdx-plugins';
 
 const withMDX = createMDX({
    mdxOptions: {
@@ -9,7 +8,14 @@ const withMDX = createMDX({
 
 /** @type {import('next').NextConfig} */
 const config = {
-  reactStrictMode: true, 
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        hostname :"images.pexels.com"
+      }
+    ],
+  },
 };
 
 export default withMDX(config);
