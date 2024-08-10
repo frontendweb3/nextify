@@ -45,10 +45,6 @@ export const pages = loader({
   baseUrl: '/page',
   rootDir: 'pages',
   remarkPlugins: [remarkImage, rehypeCode, remarkHeading],
-  icon(icon) {
-    if (icon && icon in icons)
-      return create({ icon: icons[icon as keyof typeof icons] });
-  },
   source: createMDXSource(map, {
     schema: {
       frontmatter: defaultSchemas.frontmatter.extend({
