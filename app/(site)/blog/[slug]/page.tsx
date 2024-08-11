@@ -5,6 +5,8 @@ import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
 import Image from "next/image";
 import { Share } from './share.client';
 import Card from "@/components/Card/Card";
+import type { Metadata } from 'next';
+import { createMetadata } from '@/utils/metadata';
 
 interface Param {
   slug: string;
@@ -59,7 +61,7 @@ export default function Page({
           </div>
         </div>
 
-        <div className="mt-16 prose prose-gray max-w-none dark:prose-invert">
+        <div className="mt-8 prose prose-gray max-w-none dark:prose-invert">
           <InlineTOC items={page.data.exports.toc} />
           <page.data.exports.default />
         </div>
@@ -86,3 +88,48 @@ export default function Page({
 
     </>)
 }
+
+
+export function generateStaticParams() {
+  return blog.getPages().map((page) => {
+    return ({
+      slug: page.slugs[0],
+    })
+  });
+}
+
+export function generateMetadata({ params }: {
+  params: {
+    slug: string;
+  }
+}): Metadata {
+
+  const page = blog.getPage([params.slug]);
+
+  if (!page) notFound();
+
+  const description = page.data.description ?? 'Cupidatat voluptate deserunt non ea exercitation sit consequat ullamco ex nostrud elit magna.';
+
+  let getImageURL: string = page.data.image ? page.data.image : "/banner.png"
+
+  const image = {
+    alt: page.data.title,
+    url: getImageURL,
+    width: 1200,
+    height: 630,
+  };
+
+  return createMetadata({
+    title: page.data.title,
+    description,
+    openGraph: {
+      url: `/blog/${page.slugs.join('/')}`,
+      images: image,
+    },
+    twitter: {
+      images: image,
+    },
+  });
+}
+
+
