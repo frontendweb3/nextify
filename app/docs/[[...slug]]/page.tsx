@@ -4,11 +4,8 @@ import { notFound } from 'next/navigation';
 import { docs } from '@/utils/source';
 import { Category } from "@/components/Category/Category";
 import * as React from "react";
-
-// import type { Metadata } from 'next';
-// import { createMetadata } from '@/utils/metadata';
-// import Preview from '@/components/preview';
-
+import type { Metadata } from 'next';
+import { createMetadata } from '@/utils/metadata';
 
 interface Param {
   slug: string[];
@@ -61,33 +58,33 @@ export default function Page({ params }: { params: Param; }): React.ReactElement
 
 
 
-//export function generateMetadata({ params }: { params: Param }): Metadata {
-//  const page = docs.getPage(params.slug);
-//
-//  if (!page) notFound();
-//
-//  const description =
-//    page.data.description ?? 'The library for building documentation sites';
-//
-//  const image = {
-//    alt: 'Banner',
-//    url: `/og/docs/${page.slugs.join('/')}.png`,
-//    width: 1200,
-//    height: 630,
-//  };
-//
-//  return createMetadata({
-//    title: page.data.title,
-//    description,
-//    openGraph: {
-//      url: `/docs/${page.slugs.join('/')}`,
-//      images: image,
-//    },
-//    twitter: {
-//      images: image,
-//    },
-//  });
-//}
+export function generateMetadata({ params }: { params: Param }): Metadata {
+  const page = docs.getPage(params.slug);
+
+  if (!page) notFound();
+
+  const description = page.data.description ?? 'Cupidatat voluptate deserunt non ea exercitation sit consequat ullamco ex nostrud elit magna.';
+
+
+  const image = {
+    alt: 'Banner',
+    url: `/banner.png`,
+    width: 1200,
+    height: 630,
+  };
+
+  return createMetadata({
+    title: page.data.title,
+    description,
+    openGraph: {
+      url: `/docs/${page.slugs.join('/')}`,
+      images: image,
+    },
+    twitter: {
+      images: image,
+    },
+  });
+}
 
 export function generateStaticParams(): Param[] {
   return docs.getPages().map((page) => ({

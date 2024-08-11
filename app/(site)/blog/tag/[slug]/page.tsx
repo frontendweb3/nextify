@@ -3,6 +3,10 @@ import { notFound } from 'next/navigation';
 import Card from "@/components/Card/Card";
 import slugify from 'slugify';
 import type { BlogPage } from '@/utils/source';
+import type { Metadata } from 'next';
+import { createMetadata } from '@/utils/metadata';
+import { baseOptions } from '@/app/(site)/layout.config';
+
 interface Param {
   slug: string;
 }
@@ -26,11 +30,11 @@ export default function Page({
   if (relatedPosts === undefined || relatedPosts.length === 0) notFound();
 
   return (<div className="mt-20 max-w-6xl mx-auto">
-    <h1 className="text-xl font-extrabold tracking-tight sm:text-2xl lg:text-3xl capitalize">{params.slug.replace(/-/g, " ")}</h1>
+     <h1 className="text-xl font-extrabold tracking-tight sm:text-2xl lg:text-3xl capitalize">{params.slug.replace(/-/g, " ")}</h1>
     <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
       {
-        relatedPosts.map(post => <Card
-          key={post.url}
+        relatedPosts.map((post,index) => <Card
+          key={`${post.url}-${index}` }
           title={post.data.title}
           author={post.data?.author}
           date={post.data?.date}
@@ -42,4 +46,14 @@ export default function Page({
     </div>
   </div>)
 
+}
+
+export function generateMetadata({ params }: { params: Param }): Metadata {
+  const { tags } = baseOptions
+  return createMetadata({
+    title: tags !== undefined ? `${tags.title} ${params.slug.replace(/-/g, " ")}` : params.slug.replace(/-/g, " "),
+    openGraph: {
+      url: `/tag/${params.slug}`,
+    },
+  });
 }

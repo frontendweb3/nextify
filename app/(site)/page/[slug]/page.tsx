@@ -1,12 +1,7 @@
+import { createMetadata } from '@/utils/metadata';
 import { pages } from '@/utils/source';
+import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import dayjs from 'dayjs';
-import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
-import Image from "next/image";
-
-import { findNeighbour } from 'fumadocs-core/server';
-// import { pageTree } from '@/utils/source';
-
 
 interface Param {
   slug: string;
@@ -20,10 +15,6 @@ export default function Page({
 
   const page = pages.getPage([params.slug]);
   if (!page) notFound();
-
-  // const neighbours = findNeighbour(blog, page.url);
-
-  // console.log("neighbours :", neighbours)
 
   return (
     <>
@@ -42,4 +33,30 @@ export default function Page({
         </div>
       </div>
     </>)
+}
+
+export function generateStaticParams() {
+
+  return pages.getPages().map((page) => {
+    return ({
+      slug: page.slugs[0],
+    })
+  });
+}
+
+export function generateMetadata({ params }: { params: Param }): Metadata {
+
+  const page = pages.getPage([params.slug]);
+
+  if (!page) notFound();
+
+  const description = page.data.description ?? 'Cupidatat voluptate deserunt non ea exercitation sit consequat ullamco ex nostrud elit magna.';
+
+  return createMetadata({
+    title: page.data.title,
+    description,
+    openGraph: {
+      url: `/page/${page.slugs.join('/')}`,
+    }
+  });
 }
