@@ -1,5 +1,4 @@
 import type { DocsLayoutProps } from 'fumadocs-ui/layout';
-
 import { docs } from '@/utils/source';
 import { Logo } from '@/components/Logo/Logo';
 import type { HomeLayout } from '@/utils/types';
@@ -16,11 +15,18 @@ export const baseOptions: HomeLayout = {
     { url: "/docs/get-started/introduction", text: "Documatation" },
     { url: "/blog", text: "Blog" },
     { url: "/page/about", text: "About" },
-    { url: " page/changelog", text: "ChangeLog" },
+    { url: "/page/changelog", text: "ChangeLog" },
     { url: "https://github.com/frontendweb3/Nextify", text: "Github", type: 'icon', icon: <Github /> },
-    { url: "https://github.com/frontendweb3/Nextify", text: "Twitter", type: 'icon', icon: <Twitter /> }
+    { url: "https://twitter.com/Official_R_deep", text: "Twitter", type: 'icon', icon: <Twitter /> }
   ],
-  BlogNav: [{ name: "Computer Science", url: "/blog/tag/computer-science" }, { name: "Photography", url: "/blog/tag/photography" }, { name: "Programming", url: "/blog/tag/programming" }],
+  BlogNav: [
+    { name: "Computer Science", url: "/blog/tag/computer-science" }, 
+    { name: "Photography", url: "/blog/tag/photography" }, 
+    { name: "Programming", url: "/blog/tag/programming" }
+  ],
+  tags:{
+   title : " Our tag here "
+  },
   social: [{
     icon: <Github />,
     name: "Github",
