@@ -1,6 +1,6 @@
 import { Logo } from '@/components/Logo/Logo';
 import { Newsletter } from "@/components/Newsletter/Newsletter"
-import { baseOptions } from '@/app/layout.config';
+import { baseOptions } from '@/app/(site)/layout.config';
 import Link from "next/link"
 export function Footer() {
 
