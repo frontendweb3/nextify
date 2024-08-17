@@ -2,7 +2,7 @@ import type { DocsLayoutProps } from 'fumadocs-ui/layout';
 import type { HomeLayoutProps } from 'fumadocs-ui/home-layout';
 import { docs } from '@/utils/source';
 import { Logo } from '@/components/Logo/Logo';
-import { Github, BookIcon} from 'lucide-react';
+import { Github, BookIcon } from 'lucide-react';
 
 // shared configuration
 export const baseOptions: HomeLayoutProps = {
@@ -10,8 +10,7 @@ export const baseOptions: HomeLayoutProps = {
     title: (<Logo />),
     transparentMode: 'top',
   },
-  
-   links: [
+  links: [
     {
       icon: <BookIcon />,
       text: 'Blog',
