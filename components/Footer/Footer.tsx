@@ -157,10 +157,10 @@ export function Footer() {
           </div>
         </div>
         {/* Divider */}
-        <div className="mb-14 mt-16 w-full border-b border-black"></div>
+        <div className="mb-14 mt-16 w-full border-b border-border"></div>
         <Newsletter />
         {/* Divider */}
-        <div className="mb-14 mt-16 w-full border-b border-black"></div>
+        <div className="mb-14 mt-16 w-full border-b border-border"></div>
         <div className="flex md:flex-row gap-12 items-start justify-between flex-col flex-col-reverse md:items-center">
           <p className="text-sm sm:text-base">
             © Copyright 2021. All rights reserved.
