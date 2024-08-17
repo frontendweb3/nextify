@@ -1,9 +1,27 @@
-# Nextify template
+> In working stage
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+# Nextify Template
 
-Run development server:
+Nextify is a prebuilt template for building documentation sites using Next.js, Tailwind CSS, and Fumadocs.
+
+## Get Started
+
+First step is clone the Nextify template ffrom github using git.
+
+```bash
+git clone https://github.com/frontendweb3/Nextify.git
+```
+Next install the package
+
+```
+pnpm install
+
+# or
+
+npm install
+
+```
+Lastly run the development server:
 
 ```bash
 npm run dev
@@ -13,7 +31,7 @@ pnpm dev
 yarn dev
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+Open <http://localhost:3000> with your browser to see the result.
 
 ## Learn More
 
