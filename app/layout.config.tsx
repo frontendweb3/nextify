@@ -4,14 +4,13 @@ import { docs } from '@/utils/source';
 import { Logo } from '@/components/Logo/Logo';
 import { Github, BookIcon} from 'lucide-react';
 
-
-
 // shared configuration
 export const baseOptions: HomeLayoutProps = {
   nav: {
     title: (<Logo />),
     transparentMode: 'top',
   },
+  
    links: [
     {
       icon: <BookIcon />,
