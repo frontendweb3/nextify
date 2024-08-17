@@ -18,7 +18,13 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={GeistSans.className} suppressHydrationWarning>
       <body>
-        <RootProvider> {children} </RootProvider>
+        <RootProvider search={{
+          links: [
+            ['Home', '/'],
+            ['Documatation', '/docs'],
+            ['Blog', '/blog']
+          ],
+        }}> {children} </RootProvider>
       </body>
     </html>
   );
