@@ -161,25 +161,25 @@ export function Footer() {
         <Newsletter />
         {/* Divider */}
         <div className="mb-14 mt-16 w-full border-b border-black"></div>
-        <div className="flex md:flex-row items-start justify-between sm:flex-col flex-col-reverse md:items-center">
+        <div className="flex md:flex-row gap-12 items-start justify-between flex-col flex-col-reverse md:items-center">
           <p className="text-sm sm:text-base">
             © Copyright 2021. All rights reserved.
           </p>
           <div className="text-center font-semibold">
             <a
               href="#"
-              className="inline-block py-2 pl-5 font-normal transition hover:text-blue-600 px-2.5 lg:pl-12">
+              className=" py-2  font-normal transition hover:text-blue-600 px-2.5 ">
               Terms of Service
             </a>
             <a
               href="#"
-              className="inline-block py-2 pl-5 font-normal transition hover:text-blue-600 px-2.5 lg:pl-12"
+              className=" py-2 font-normal transition hover:text-blue-600 px-2.5 "
             >
               License
             </a>
             <a
               href="#"
-              className="inline-block py-2 pl-5 font-normal transition hover:text-blue-600 px-2.5 lg:pl-12"
+              className=" py-2  font-normal transition hover:text-blue-600 px-2.5 "
             >
               Privacy Policy
             </a>
