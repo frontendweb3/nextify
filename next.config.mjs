@@ -1,7 +1,7 @@
 import createMDX from 'fumadocs-mdx/config';
 
 const withMDX = createMDX({
-   mdxOptions: {
+  mdxOptions: {
     lastModifiedTime: 'git',
   },
 });
@@ -12,7 +12,7 @@ const config = {
   images: {
     remotePatterns: [
       {
-        hostname :"images.pexels.com"
+        hostname: "images.pexels.com"
       }
     ],
   },
