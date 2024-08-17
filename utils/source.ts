@@ -1,6 +1,5 @@
 import { createMDXSource, defaultSchemas } from 'fumadocs-mdx';
 import { loader } from 'fumadocs-core/source';
-import { remarkImage, rehypeCode, remarkHeading } from 'fumadocs-core/mdx-plugins';
 import { z } from 'zod';
 import { icons } from 'lucide-react';
 import { map } from '@/.map';
@@ -10,7 +9,6 @@ import type { InferMetaType, InferPageType } from 'fumadocs-core/source';
 export const docs = loader({
   baseUrl: '/docs',
   rootDir: 'docs',
-  remarkPlugins: [remarkImage, rehypeCode, remarkHeading],
   icon(icon) {
     if (icon && icon in icons)
       return create({ icon: icons[icon as keyof typeof icons] });
@@ -27,7 +25,6 @@ export const docs = loader({
 export const blog = loader({
   baseUrl: '/blog',
   rootDir: 'blog',
-  remarkPlugins: [remarkImage, rehypeCode, remarkHeading],
   source: createMDXSource(map, {
     schema: {
       frontmatter: defaultSchemas.frontmatter.extend({
@@ -35,7 +32,7 @@ export const blog = loader({
         date: z.string().date().or(z.date()).optional(),
         tags: z.string().array().optional(),
         image: z.string().trim().optional(),
-        category:z.string().array().optional()
+        category: z.string().array().optional()
       })
     },
   }),
@@ -44,7 +41,6 @@ export const blog = loader({
 export const pages = loader({
   baseUrl: '/page',
   rootDir: 'pages',
-  remarkPlugins: [remarkImage, rehypeCode, remarkHeading],
   source: createMDXSource(map, {
     schema: {
       frontmatter: defaultSchemas.frontmatter.extend({
