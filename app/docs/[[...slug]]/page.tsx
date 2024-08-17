@@ -48,7 +48,6 @@ export default function Page({ params }: { params: Param; }): React.ReactElement
         {page.data.description}
       </p>
       <DocsBody>
-
         <page.data.exports.default />
         {page.data.index ? <Category page={page} /> : null}
       </DocsBody>
