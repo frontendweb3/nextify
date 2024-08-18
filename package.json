@@ -21,6 +21,7 @@
     "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "remark-github": "^12.0.0",
     "slugify": "^1.6.6",
     "tailwind-merge": "^2.4.0",
     "zod": "^3.23.8"
