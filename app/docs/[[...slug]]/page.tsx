@@ -6,6 +6,7 @@ import { Category } from "@/components/Category/Category";
 import * as React from "react";
 import type { Metadata } from 'next';
 import { createMetadata } from '@/utils/metadata';
+import { docsOptions } from '@/app/layout.config';
 
 interface Param {
   slug: string[];
@@ -16,12 +17,14 @@ export default function Page({ params }: { params: Param; }): React.ReactElement
 
   if (!page) notFound();
 
-  const path = `apps/docs/content/docs/${page.file.path}`;
+  const { githubUrl } = docsOptions;
+
+  const path = `content/docs/${page.file.path}`;
 
 
   const footer = (
     <a
-      href={`https://github.com/fuma-nama/fumadocs/blob/main/${path}`}
+      href={`${githubUrl}/blob/main/${path}`}
       target="_blank"
       rel="noreferrer noopener"
       className="bg-fd-primary text-fd-primary-foreground flex flex-row justify-center items-center p-2"

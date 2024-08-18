@@ -10,6 +10,7 @@ export const baseOptions: HomeLayoutProps = {
     title: (<Logo />),
     transparentMode: 'top',
   },
+  githubUrl :"https://github.com/frontendweb3/nextify",
   links: [
     {
       icon: <BookIcon />,
