@@ -28,7 +28,7 @@ export default function Page({
           </div>
         </div>
 
-        <div className="mt-16 prose prose-gray max-w-none dark:prose-invert">
+        <div className="mt-8 prose prose-gray max-w-none dark:prose-invert">
           <page.data.exports.default />
         </div>
       </div>
