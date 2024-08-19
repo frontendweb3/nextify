@@ -1,8 +1,7 @@
 import { Edit } from 'lucide-react';
-import { DocsPage, DocsBody } from 'fumadocs-ui/page';
+import { DocsPage, DocsBody, DocsDescription, DocsTitle, DocsCategory } from 'fumadocs-ui/page';
 import { notFound } from 'next/navigation';
 import { docs } from '@/utils/source';
-import { Category } from "@/components/Category/Category";
 import * as React from "react";
 import type { Metadata } from 'next';
 import { createMetadata } from '@/utils/metadata';
@@ -44,15 +43,15 @@ export default function Page({ params }: { params: Param; }): React.ReactElement
       }}
       tableOfContentPopover={{ footer }}
     >
-      <h1 className="text-3xl font-bold text-fd-foreground sm:text-4xl">
-        {page.data.title}
-      </h1>
-      <p className="mb-8 text-lg text-fd-muted-foreground">
-        {page.data.description}
-      </p>
+      <DocsTitle>{page.data.title}</DocsTitle>
+      {page.data.description ? (
+        <DocsDescription>{page.data.description}</DocsDescription>
+      ) : null}
       <DocsBody>
         <page.data.exports.default />
-        {page.data.index ? <Category page={page} /> : null}
+        {page.data.index ? (
+          <DocsCategory page={page} pages={docs.getPages()} />
+        ) : null}
       </DocsBody>
     </DocsPage>
   );
