@@ -8,10 +8,8 @@ Nextify is a prebuilt template for building documentation sites using Next.js, T
 
 ![Demo](./.github/images/nextify-demo.gif)
 
----
-![Demo](./.github/images/nextify-demo.webm)
+### Pictures
 
-Picture
 ![Nextify](./.github/images/nextify.png)
 
 ![Nextify Documentation](./.github/images/nextify-docs.png)
@@ -22,9 +20,10 @@ Picture
 
 ![Nextify Footer](./.github/images/nextify-footer.png)
 
+
 ## Get Started
 
-First step is clone the Nextify template ffrom github using git.
+First step is to clone the Nextify template from github using git.
 
 ```bash
 git clone https://github.com/frontendweb3/Nextify.git
