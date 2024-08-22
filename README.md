@@ -67,6 +67,64 @@ yarn dev
 
 Open <http://localhost:3000> with your browser to see the result.
 
+## MetaData/Frontmatter
+
+Frontmatter for creating new documentation file.
+
+```markdown
+---
+title: Architecture of Nextify
+description: Architecture of Nextify template
+---
+
+Ut ullamco et aliqua `fugiat quis` Lorem aliquip in.
+
+```
+
+Frontmatter for creating new Blog post.
+
+```markdown
+---
+title: 10 Things You Most Likely Didn't Know About Health.
+description: Culpa laboris aliquip ea consectetur mollit ea ipsum sint qui culpa laboris
+  dolor adipisicing proident. Et officia consequat do nulla tempor cupidatat
+  elit.
+date: 2022-11-12T08:05:53.939Z
+draft: false
+tags:
+  - Health
+  - Likely
+  - Didn't Know
+category:
+  - Health
+image: /images/vegetables.jpg
+author: Curtis Lopez
+---
+
+Cupidatat voluptate deserunt non ea exercitation sit consequat ullamco ex nostrud elit magna. 
+
+
+```
+
+Frontmatter for creating new page.
+
+
+```markdown
+---
+title: About us
+description: About the author
+date: 2022-11-08T08:55:59.004Z
+tags:
+  - Blog
+  - About
+author: Rajdeep Singh
+---
+
+Cupidatat voluptate deserunt non ea exercitation sit consequat.
+
+```
+
+
 ## Learn More
 
 To learn more about Next.js and Fumadocs, take a look at the following
