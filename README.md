@@ -33,6 +33,8 @@ Every feature in the nextify template comes from fumasdoc itself.
 
 ![Nextify Blog](./.github/images/nextify-blog.png)
 
+![Nextify Reading Page](./.github/images/nextify-reading.png)
+
 ![Nextify Page](./.github/images/nextify-page.png)
 
 ![Nextify Footer](./.github/images/nextify-footer.png)
