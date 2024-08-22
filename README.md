@@ -4,6 +4,24 @@
 
 Nextify is a prebuilt template for building documentation sites using Next.js, Tailwind CSS, and Fumadocs.
 
+## Demo
+
+![Demo](./.github/images/nextify-demo.gif)
+
+---
+![Demo](./.github/images/nextify-demo.webm)
+
+Picture
+![Nextify](./.github/images/nextify.png)
+
+![Nextify Documentation](./.github/images/nextify-docs.png)
+
+![Nextify Blog](./.github/images/nextify-blog.png)
+
+![Nextify Page](./.github/images/nextify-page.png)
+
+![Nextify Footer](./.github/images/nextify-footer.png)
+
 ## Get Started
 
 First step is clone the Nextify template ffrom github using git.
@@ -11,15 +29,12 @@ First step is clone the Nextify template ffrom github using git.
 ```bash
 git clone https://github.com/frontendweb3/Nextify.git
 ```
-Next install the package
+Next install the package.
 
-```
+```bash
 pnpm install
-
 # or
-
 npm install
-
 ```
 Lastly run the development server:
 
