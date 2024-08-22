@@ -12,6 +12,7 @@ Every feature in the nextify template comes from fumasdoc itself.
 - Support the Blog, tag page and Page 
 - In-built Full-text Search functionality
 - MDX support
+- Syntax Highlighting
 - Inbuilt components support
 - Support the Next.js App Router and React server Component
 - Tailwind CSS support
