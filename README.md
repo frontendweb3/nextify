@@ -4,6 +4,22 @@
 
 Nextify is a prebuilt template for building documentation sites using Next.js, Tailwind CSS, and Fumadocs.
 
+### Features:
+
+Every feature in the nextify template comes from fumasdoc itself.
+
+- In-built dark and light mode
+- Support the Blog, tag page and Page 
+- In-built Full-text Search functionality
+- MDX support
+- Inbuilt components support
+- Support the Next.js App Router and React server Component
+- Tailwind CSS support
+- I18n support
+- Table of Contents
+- Remote Source
+- RTL Layout	
+
 ## Demo
 
 ![Demo](./.github/images/nextify-demo.gif)
