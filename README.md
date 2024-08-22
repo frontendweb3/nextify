@@ -1,6 +1,26 @@
 > In working stage
 
-# Nextify Template
+<p align="center">
+  <a href="https://section-blog-theme-docs.vercel.app">
+      <img src="https://cdn.jsdelivr.net/gh/frontendweb3/nextify/.github/images/nextify.svg" height="128">
+    <h1 align="center">Nextify - Open sourec Template</h1>
+  </a>
+</p>
+
+<div style="display:flex; margin: 5px auto;">
+
+  <img style="margin: 5px auto;" title="pnpm" alt="pnpm" src="https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220" />
+  <img style="margin: 5px auto;" title="reactjs" alt="reactjs"  src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+  <img style="margin: 5px auto;" title="nextjs" alt="nextjs"  src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img style="margin: 5px auto;" title="typescript" alt="typescript"  src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img style="margin: 5px auto;" title="radix ui" alt="radix ui"  src="https://img.shields.io/badge/radixui-%23DD0031.svg?style=for-the-badge&logo=radixui&logoColor=white"/>
+  <img style="margin: 5px auto;" title="tailwind css" alt="tailwind css" src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img style="margin: 5px auto;" title="markdown" alt="markdown"  src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
+  <img style="margin: 5px auto;" title="turborepo" alt="turborepo" src="https://img.shields.io/badge/turborepo-000204?style=for-the-badge&logo=turborepo&logoColor=white">
+  
+</div>
+
+<div style="margin-top: 10px auto;width:100%;"></div>
 
 Nextify template is a prebuilt template for building documentation sites using [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [Fumadocs](https://fumadocs.vercel.app/docs/ui/comparisons).
 
