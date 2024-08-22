@@ -12,7 +12,6 @@ category:
   - Computer Science
 image: /images/fantasy-android.jpg
 author: Linda Pittman
-slug: seven-ways-to-have-fun-learning-computer-science
 ---
 In do officia nostrud elit. Voluptate cillum et labore eiusmod do esse veniam. Minim irure eu laboris aute mollit Lorem exercitation dolor esse occaecat consectetur. 
 

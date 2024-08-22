@@ -12,7 +12,6 @@ category:
   - Programing
 image:  /images/code.jpg
 author: Jeffery Schwartz
-slug: the-millionaire-guide-on-programing-to-help-you-get-rich
 ---
 Mollit enim excepteur id aliquip ipsum enim minim officia excepteur tempor ea nisi eu. Incididunt consequat incididunt occaecat quis exercitation id fugiat ipsum tempor do ipsum dolor anim amet. Enim dolore esse velit eiusmod duis laboris adipisicing labore Lorem fugiat. 
 

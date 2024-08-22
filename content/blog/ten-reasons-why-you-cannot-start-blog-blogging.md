@@ -11,12 +11,12 @@ category:
   - Blog
 image: /images/blogging.jpg
 author: Gregg Walker
-slug: ten-reasons-why-you-cannot-start-blog-blogging
 ---
 
 Incididunt aute elit voluptate irure do culpa aliquip occaecat commodo incididunt minim officia eiusmod. Eiusmod fugiat sunt consectetur officia fugiat qui exercitation. Magna laboris fugiat consequat elit sunt. Quis irure ex ad nostrud quis reprehenderit in occaecat mollit mollit irure Lorem ullamco sit.
 
 Adipisicing veniam adipisicing eu ea non id. Et in amet qui ea cillum duis elit. Commodo sint labore laborum sint incididunt nulla sint mollit velit labore. Esse laboris est minim elit Lorem duis.
+
 ## 10 Reasons
 1. Aliqua laborum minim sunt veniam.
 2. Lorem pariatur id labore ipsum. 
@@ -29,7 +29,9 @@ Adipisicing veniam adipisicing eu ea non id. Et in amet qui ea cillum duis elit.
 9. ad nostrud cillum sint.
 10. do fugiat consequat laborum.
 
-Ex voluptate ullamco excepteur culpa qui cillum consectetur id fugiat adipisicing elit. Ex consectetur laborum sit qui mollit cupidatat labore velit deserunt commodo aute irure mollit. Anim consequat proident voluptate ipsum consectetur aliquip sunt ex ipsum. Nisi deserunt commodo in officia sunt ut aute sit ullamco.
+> Ex voluptate ullamco excepteur culpa qui cillum consectetur id fugiat adipisicing elit. 
+
+Ex consectetur laborum sit qui mollit cupidatat labore velit deserunt commodo aute irure mollit. Anim consequat proident voluptate ipsum consectetur aliquip sunt ex ipsum. Nisi deserunt commodo in officia sunt ut aute sit ullamco.
 
 ## Conclusion
 Excepteur et aliquip voluptate est labore proident adipisicing deserunt commodo elit esse. Minim quis reprehenderit dolore eiusmod non laborum cupidatat amet ad ea quis nostrud. Lorem exercitation minim Lorem quis mollit tempor exercitation. In Lorem in est mollit.

@@ -11,7 +11,6 @@ tags:
 title: Random blog Title for markdown.
 slug: random-blog-title-for-markdown
 draft: false
-author: Rajdeep Singh
 ---
 
 Laboris consequat elit ad excepteur. Ipsum duis amet dolore voluptate dolore consequat ullamco incididunt ullamco. Dolore laborum cupidatat dolor ipsum reprehenderit excepteur cupidatat dolore. 

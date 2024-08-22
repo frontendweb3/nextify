@@ -11,7 +11,6 @@ category:
   - Blog
 image: /images/natural.jpg
 author: Annie Dean
-slug: top-10-sites-you-can-learn-programming-for-free
 ---
 Culpa irure occaecat laboris consectetur magna. Adipisicing irure minim cupidatat in nulla et. In exercitation qui sit aliquip sint consectetur ex quis. Exercitation consequat ut eu ea occaecat quis ipsum exercitation adipisicing ut. Sunt minim ex elit sint cupidatat Lorem magna ad ad. 
 
@@ -37,6 +36,6 @@ Eu id aliquip anim quis aliquip incididunt do proident eiusmod aute ex veniam.Ad
 ## Sixth Website
 Dolor fugiat esse nulla id veniam ex. Labore anim veniam do et officia enim aute elit duis excepteur non. Dolore reprehenderit laboris consequat sunt fugiat enim fugiat id occaecat. Sunt ullamco cupidatat quis ad proident proident amet nulla aute magna laboris non. Exercitation voluptate magna et consectetur veniam.
 
-## conclusion
+## Conclusion
 Sunt ullamco cupidatat quis ad proident proident amet nulla aute magna laboris non. Exercitation voluptate magna et consectetur veniam.
 

@@ -12,7 +12,6 @@ category:
   - Blog
 image: /images/blog.jpg
 author: Ashley Paul
-slug: 10-blog-that-had-gone-way-too-far
 ---
 Dolore ipsum minim dolore anim duis aliquip cupidatat excepteur. Laborum amet eiusmod voluptate amet. Ullamco cupidatat eu duis minim proident. Irure in pariatur adipisicing incididunt nulla qui. Id elit ea ullamco esse labore.
 

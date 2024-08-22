@@ -11,7 +11,6 @@ category:
   - Photography
 image: /images/camera.jpg
 author: Jeanne Ballard
-slug: 5-reasons-why-you-shouldn-t-learn-photography-on-your-own
 ---
 
 **Officia labore** esse ex ullamco qui. Laboris nostrud id non fugiat ad. Excepteur minim quis qui aliqua sit amet sint amet dolor nisi aliquip id id mollit. Aliqua anim consectetur mollit do Lorem culpa. Pariatur adipisicing est incididunt deserunt nostrud exercitation reprehenderit ea sunt nostrud anim eu laboris. Cillum deserunt excepteur dolor nostrud nisi. Laborum occaecat magna est ex non est elit.

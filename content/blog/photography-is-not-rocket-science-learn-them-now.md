@@ -11,7 +11,6 @@ category:
   - Photography
 image: /images/smartphone.jpg
 author: Ashley Paul
-slug: photography-is-not-rocket-science-learn-them-now
 ---
 Anim excepteur reprehenderit excepteur sunt est ex incididunt reprehenderit laboris anim mollit ex ut. Cupidatat nisi deserunt veniam ipsum proident consequat anim ipsum in. Ex et reprehenderit dolor adipisicing anim culpa ipsum ea excepteur cupidatat labore.
 ## Elit consequat

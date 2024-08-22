@@ -11,7 +11,6 @@ category:
  - Cillum
 image : /images/eyes.png
 author: Linda Pittman
-slug: cillum-cupidatat-proident-fugiat-aute
 ---
 
 Cillum cupidatat proident fugiat aute. Ea commodo Lorem ea ex enim consectetur anim. Consectetur culpa duis irure quis elit dolor consectetur sunt eiusmod excepteur.

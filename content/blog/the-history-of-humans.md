@@ -11,7 +11,6 @@ category:
   - Humans
 image: /images/humans.jpg
 author: DR. Jeffery Schwartz
-slug: the-history-of-humans
 ---
 
 Consectetur ipsum ad incididunt ea minim irure mollit do velit consectetur occaecat amet. Amet minim sint qui laboris. Esse ad in aute laboris est reprehenderit laboris consectetur nisi. Occaecat laboris exercitation eiusmod duis duis et. Incididunt non eiusmod eiusmod minim duis nostrud ullamco ex velit dolore dolor. Ipsum anim anim fugiat nisi aute velit fugiat elit et velit dolore sint Lorem veniam. Officia pariatur cillum commodo occaecat qui.
@@ -26,7 +25,10 @@ Enim excepteur minim ex elit. Aliqua laborum et consequat eiusmod elit do occaec
 
 > Life is what happens when you're busy making other plans. -John Lennon
 
-Quis minim occaecat est fugiat ex incididunt qui sunt ex magna ex excepteur aliqua dolor. Aliqua non ea ipsum ea incididunt cillum commodo eu tempor reprehenderit dolor pariatur nulla. Ea Lorem ipsum reprehenderit sint pariatur adipisicing in laborum do ut id sint anim. Laborum sint magna ut tempor veniam. Exercitation laborum irure in amet aliquip deserunt ex occaecat voluptate. Aute nulla ex incididunt fugiat. Ipsum proident fugiat in irure nostrud.
+Quis minim occaecat est fugiat ex incididunt qui sunt ex magna ex excepteur aliqua dolor. Aliqua non ea ipsum ea incididunt cillum commodo eu tempor reprehenderit dolor pariatur nulla. Ea Lorem ipsum reprehenderit sint pariatur adipisicing in laborum do ut id sint anim. 
+
+
+Laborum sint magna ut tempor veniam. Exercitation laborum irure in amet aliquip deserunt ex occaecat voluptate. Aute nulla ex incididunt fugiat. Ipsum proident fugiat in irure nostrud.
 
 Eu minim ea elit enim deserunt sint enim nisi id cupidatat minim do anim. Qui consequat sint id ex. Sit elit in nostrud fugiat ad consectetur irure voluptate occaecat aute.
 
