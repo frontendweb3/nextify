@@ -20,6 +20,7 @@ Nextify is a prebuilt template for building documentation sites using Next.js, T
 
 ![Nextify Footer](./.github/images/nextify-footer.png)
 
+![Nextify Footer](./.github/images/nextify-search.png)
 
 ## Get Started
 
