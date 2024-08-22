@@ -3,9 +3,7 @@ export function Newsletter() {
     <div className="flex justify-between md:flex-row flex-col gap-8 md:gap-0">
     <div className="flex flex-col items-start gap-2">
       <h5 className="text-xl font-bold">Join our newsletter</h5>
-      <p className="text-sm sm:text-sm">
-        Keep up to date with everything ElavateAI
-      </p>
+      <p className="text-sm sm:text-sm"> Keep up to date with related Nextify.</p>
     </div>
     <div className="mb-4 w-full max-w-sm">
 
