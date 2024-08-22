@@ -24,6 +24,9 @@
 
 Nextify template is a prebuilt template for building documentation sites using [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [Fumadocs](https://fumadocs.vercel.app/docs/ui/comparisons).
 
+<div style="margin: 10px auto;width:100%;"></div>
+
+
 ### Features:
 
 Every feature in the nextify template comes from fumadocs itself.
