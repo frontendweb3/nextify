@@ -1,14 +1,13 @@
 import { Hero } from '@/components/Hero/Hero';
-import { Work } from '@/components/work/work';
+import { Work } from '@/components/Work/Work';
 import { FAQ } from '@/components/FAQ/FAQ';
 import { Testimonial } from '@/components/Testimonial/Testimonial';
-import { baseUrl, createMetadata } from '@/utils/metadata';
-
+import { baseUrl, createMetadata  } from "@/utils/metadata";
 
 export const metadata = createMetadata({
   title: {
     template: '%s | Nextify',
-    default: 'Home',
+    default: 'Nextify',
   },
   description: 'Nextify is a prebuilt template for building documentation sites using Next.js and Fumadocs.',
   metadataBase: baseUrl,
