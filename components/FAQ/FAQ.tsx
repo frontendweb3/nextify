@@ -1,4 +1,3 @@
-
 import FAQItem from "./FAQItem.client";
 import { baseOptions } from '@/app/(site)/layout.config';
 export function FAQ() {
