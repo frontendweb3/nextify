@@ -148,6 +148,46 @@ author: Rajdeep Singh
 Cupidatat voluptate deserunt non ea exercitation sit consequat.
 ```
 
+## Card
+
+Nextify supports two types of blog cards.
+
+### Card 1
+
+![Card 1 image](.github/images/card_1.png)
+
+You can enable it:
+
+```typescript
+// app/(home)/layout.config.tsx
+import type { HomeLayout } from "@/types";
+// shared configuration for site (home layout)
+export const baseOptions: HomeLayout = {
+  card_type: {
+    home: "Card_1",
+    tag: "Card_1",
+  },
+};
+```
+
+### Card 2
+
+![Card 2 image](.github/images/card_2.png)
+
+You can enable it:
+
+```typescript
+// app/(home)/layout.config.tsx
+import type { HomeLayout } from "@/types";
+// shared configuration for site (home layout)
+export const baseOptions: HomeLayout = {
+  card_type: {
+    home: "Card_2",
+    tag: "Card_2",
+  },
+};
+```
+
 ## Learn More
 
 To learn more about Next.js and Fumadocs, take a look at the following
