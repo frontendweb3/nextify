@@ -1,0 +1,37 @@
+---
+title: Tabs
+description: Nullam nibh justo, ornare quis augue nec, hendrerit blandit mi. In hac habitasse platea dictumst.
+---
+
+import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
+
+Add Tabs to your documentation.
+
+<Tabs items={['JavaScript', 'TypeScript']}>
+  <Tab value="Javascript"> 
+  ```js
+  console.log("Javascript is weird")
+  ```
+  </Tab>
+  <Tab value="TypeScript">
+  ```js
+  console.log("TypeScript is Great")
+  ```
+  </Tab>
+</Tabs>
+
+## Usage
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan congue nisl. Vivamus varius id mauris at facilisis. Vivamus lacinia enim euismod est ullamcorper feugiat. Orci varius natoque penatibus et magnis, nascetur ridiculus mus. 
+
+```js title="Steps"
+import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
+ 
+<Tabs items={['Javascript', 'Rust']}>
+  <Tab value="Javascript">Javascript is weird</Tab>
+  <Tab value="Rust">Rust is fast</Tab>
+</Tabs>
+```
+
+In diam erat, semper vel varius in, lobortis vitae neque. Praesent commodo odio finibus sapien bibendum lacinia.
+
+
